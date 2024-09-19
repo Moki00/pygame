@@ -7,6 +7,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Avoid Rain")
 
 BG = pygame.image.load("bg.jpeg")
+# BG = pygame.transform.scale(pygame.image.load("bg.jpeg"),(WIDTH, HEIGHT))
 
 def draw():
     WIN.blit(BG, (0,0))
